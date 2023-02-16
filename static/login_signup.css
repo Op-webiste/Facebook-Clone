@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: rgb(232, 232, 250);
+}
+
+/* Color classes */
+.greyclr{
+    color: rgb(235, 232, 232);
+}
+.txtdecoration{
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23599b;
+    padding: 10px;
+
+}
+nav div{
+    margin: 0px 4px;
+}
+
+nav img {
+    height: 99px;
+    width: 213px;
+    position: absolute;
+    left: 77px;
+    top: 0px;
+}
+
+nav .login_form{
+    display: flex;
+    margin-left: 35%;
+    align-items: center;
+}
+
+nav .nav_login_box {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+
+}
+nav .nav_login_box div{
+    margin: 2px 0px;
+}
+
+nav .nav_login_box h4{
+    color: white;
+}
+nav .nav_login_box input{
+    padding: 5px 30px;
+}
+nav .nav_checkbox {
+    display: flex;
+}
+
+nav .nav_checkbox input {
+    margin-right: 4px;
+}
+
+nav button {
+    padding: 5px 10px;
+    background-color: rgb(131, 131, 252);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+nav button:hover{
+    background-color: rgb(100, 100, 250);
+    
+}
+
+
+
+
+/* Section */
+
+
+
+
+
+
+
+section{
+    display: flex;
+    /* align-items: center; */
+}
+
+/* heading section */
+section .heading_section{
+    margin-left: 6%;
+    width: 44%;
+    margin-top: 40px;
+}
+
+section .heading_section h1{
+    font-size: 2rem;
+    margin-right: 10%;
+    width: 65%;
+    margin-bottom: 30px;
+}
+
+section .heading_section img{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+section .heading_section div{
+    display: flex;
+    margin: 30px 0px;
+    align-items: center;
+
+}
+
+.fonttsize{
+font-size: 1.2rem;
+}
+
+
+
+/* signup form */
+section .signup_form{
+    margin-top: 5px;
+}
+
+section .signup_form div{
+    margin: 15px 0px;
+}
+section .signup_form .signup_heading h1{
+    font-size: 3rem;
+}
+section .signup_form .signup_heading{
+    margin-bottom: 25px;
+}
+
+section .signup_form input{
+    font-size: 1.2rem;
+    padding: 10px;
+    padding-right: 260px;
+    border-radius: 5px;
+    border: 1px solid grey;
+   
+}
+
+section .signup_form .namein input{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+section .signup_form .birthdy{
+    display: flex;
+    align-items: center;
+}
+section .signup_form .birthdy input{
+padding-right: 0px;
+margin-right: 10px;
+}
+
+section .birthdy a{
+    text-decoration: none;
+    color: black;
+    width: 27%;
+    display: block;
+    
+
+}
+
+section .signup_form .gndr{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+section button{
+    font-size: 1.4rem;
+    padding: 8px 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(41, 129, 41);
+    color: white;
+    cursor: pointer;
+}
+section button:hover{
+    background-color: rgb(17, 80, 17);
+
+}
+
+section p{
+    width: 57%;
+}
+
+hr{
+    width: 71%;
+}

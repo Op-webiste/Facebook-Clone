@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/login_signup.css">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <nav>
+        <div><img src="/static/Facebook-Logo-2005-2015.png" alt="Not loaded"></div>
+        <form class="login_form" action="/login" method="post">
+            <div class="nav_login_box">
+                <div>
+                    <h4>Email or Phone</h4>
+                </div>
+                <div><input type="email" name="email" id="email"></div>
+                <div class="nav_checkbox"><input type="checkbox"><span class="greyclr">Keep me logged in</span></div>
+            </div>
+
+            <div class="nav_login_box">
+                <div>
+                    <h4>Email or Phone</h4>
+                </div>
+                <div><input type="password" name="password" id="password"></div>
+                <div><a class="greyclr txtdecoration" href="#">Forget Your Password?</a></div>
+            </div>
+            <div><Button>Log In</Button></div>
+        </form>
+
+    </nav>
+
+    <section>
+        <div class="heading_section">
+            <div>
+                <h1>Connect with friends and the world around you on Facebook</h1>
+            </div>
+            <div class="fonttsize"><img src="/static/photos.png" alt="Not loaded"><strong>See Photos and Updates &nbsp;</strong>from friends in News Feed.</div>
+            <div class="fonttsize"><img src="/static/timeline.png" alt="Not loaded"><strong>Share whats's new &nbsp;</strong>in your life on your Timeline.</div>
+            <div class="fonttsize"><img src="/static/graph" alt="Not loaded"><strong>Find more &nbsp;</strong>of what you're looking for the Graph Search.</div>
+        </div>
+
+        <div class="signup_form">
+            <form action="/signup" method="post">
+                <div class="signup_heading">
+                    <h1>Signup</h1>
+                    <h3>It's free and always will be.</h3>
+                </div>
+
+                <div class="namein">
+                    <input type="text" name="fname" id="fname" placeholder="First Name">
+                    <input type="text" name="lname" id="lname" placeholder="Last Name">
+                </div>
+                <div>
+                    <input type="email" name="signupemail" id="signupemail" placeholder="Email or Mobile Number">
+                </div>
+                <div>
+                    <input type="email" name="signupcemail" id="signupcemail" placeholder="Re-enter Email or Mobile">
+                </div>
+                <div>
+                    <input type="password" name="signuppassword" id="signuppassword" placeholder="New Pasword">
+                </div>
+                <h2>Birthday</h2>
+                <div class="birthdy">
+                    <input type="date" name="date" id="date"><a href="#">Why do I need to provide my birthday?</a>
+                </div>
+                <div class="gndr">
+                    <input type="radio" name="gender">Male <input type="radio" name="gender">Female
+                </div>
+                <div>
+                    <p>By clicking Sign Up, you agree to our Terms and that you have read our Data Policy, inculding our Cookie Use.</p>
+                </div>
+                <div>
+                    <button>Sign Up</button>
+                </div>
+                <hr>
+                <div>
+                    <p>Create a Page for a celebrity, band or business.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
